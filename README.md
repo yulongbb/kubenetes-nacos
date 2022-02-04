@@ -19,3 +19,8 @@ kubectl create -f mysql-local.yaml
 ```shell
 kubectl create -f nacos-no-pvc-ingress.yaml
 ```
+
+```shell
+vi /etc/hosts
+192.168.49.2 nacos-web.nacos-demo.com
+```
